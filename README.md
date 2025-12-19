@@ -60,9 +60,11 @@
 
 24. Reiniciar con shutdown -r now
 
-25. Instalar timeshift.
+25. Instalar timeshift, Git, wget, tlp.
 
 26. Crear Snapshot Clean.
+
+25. Instalar Xfce4, Lightdm, Mugshot.
 
 30. Instalar todas las aplicaciones apt install sudo vim tmux screenfetch git htop nodejs npm mc default-jdk default-jre build-essential dkms linux-headers-$(uname -r) gdb wget curl sqlite3 mariadb-server newsboat gparted tlp tlp-rdw qbittorrent numix-icon-theme vim-gtk3 curl wget mugshot lightdm-gtk-greeter-settings bleachbit dosbox vlc flatpak innoextract thunderbird galculator catfish
 
