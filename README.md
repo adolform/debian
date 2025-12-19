@@ -73,8 +73,8 @@
 31- Change Locales: sudo dpkg-reconfigure locales
 Chrome:
 
-1. sudo apt update && sudo apt install wget
+32- sudo apt update && sudo apt install wget
 
-2.wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+33-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-3.sudo apt install ./google-chrome-stable_current_amd64.deb
+34- sudo apt install ./google-chrome-stable_current_amd64.deb
