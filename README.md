@@ -60,18 +60,16 @@
 
 24. Reiniciar con shutdown -r now
 
-25. Ejecutar tasksel como root y elegir XFCE.
+25. Instalar timeshift.
 
-26. Re iniciar y el entorno grafico deberia mostrarse.
-
-28. Instalar timeshift.
-
-29. Crear Snapshot Clean.
+26. Crear Snapshot Clean.
 
 30. Instalar todas las aplicaciones apt install sudo vim tmux screenfetch git htop nodejs npm mc default-jdk default-jre build-essential dkms linux-headers-$(uname -r) gdb wget curl sqlite3 mariadb-server newsboat gparted tlp tlp-rdw qbittorrent numix-icon-theme vim-gtk3 curl wget mugshot lightdm-gtk-greeter-settings bleachbit dosbox vlc flatpak innoextract thunderbird galculator catfish
 
 31- Change Locales: sudo dpkg-reconfigure locales
-Chrome:
+
+
+## Chrome:
 
 32- sudo apt update && sudo apt install wget
 
