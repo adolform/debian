@@ -76,3 +76,11 @@
 33-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 34- sudo apt install ./google-chrome-stable_current_amd64.deb
+
+## Brave
+
+## Otros comandos útiles
+
+### Reconfigurar locales:
+
+
