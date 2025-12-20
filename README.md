@@ -70,13 +70,23 @@
 
 ## Chrome:
 
-1- sudo apt update && sudo apt install wget
+sudo apt update && sudo apt install wget
 
-2-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-3- sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
 ## Brave
+
+sudo apt install curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+
+sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
+
+sudo apt update
+
+sudo apt install brave-browser
 
 ## Otros comandos útiles
 
