@@ -60,7 +60,7 @@
 
 24. Reiniciar con shutdown -r now
 
-25. Instalar timeshift, git, wget, tlp.
+25. Instalar timeshift, git, wget, tlp, btrfs-progs.
 
 26. Crear Snapshot Clean.
 
