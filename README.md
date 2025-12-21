@@ -39,13 +39,13 @@
 
 8. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-9. Regresar y renombrar **@rootfs** a **@**: mv @rootfs/ @
+9. Regresar y renombrar ****@rootfs** a @: mv @rootfs/ @**
 
-10. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
+10. Ejecutar: ls -l, donde antes decia **@rootfs ahora dira @**
 
 11. Ejecutar nano /etc/fstab
 
-12. En ese archivo buscar a donde se esta montando el subvolumen @rootfs, y modificar por @
+12. En ese archivo buscar a donde se esta montando el subvolumen **@rootfs, y modificar por @**
 
 13. Salvar el Archivo fstab
 
@@ -57,7 +57,7 @@
 
 17. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    sudo apt install timeshift i3 wget tlp btrfs-progs mc tmux lightdm htop newsboat vim git
+    sudo apt install timeshift i3 wget tlp btrfs-progs mc tmux lightdm htop vim git wget newsboat
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
@@ -75,6 +75,10 @@
 
 	sudo extrepo enable brave_release
 	sudo extrepo enable google-chrome
+
+### Instalacion final con Xfce4 y Herramientas Gráficas
+
+	sudo apt install xfce4 xfce4-goodies mugshot catfish vlc 7zip google-chrome-stable brave-browser putty emacs sqlite3 vim gtk3 default-jdk default-jre nodejs gdb audacious *icon-theme
 
 
 
