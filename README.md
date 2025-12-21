@@ -25,33 +25,36 @@
 
 ## Configurando BTRFS para poder usar Timeshift
 
-1. Ejecutar el comando: df -Th para ver todas las particiones.
+1. Ejecutar el comando:
+  
+   df -Th 
+4. Montar el volumen BTRFS usando el comando:
 
-2. Montar el volumen BTRFS usando el comando: mount /dev/nvem01p4 /mnt
+   sudo mount /dev/nvem01p4 /mnt
 
-3. Moverse al /mnt y ejecutar la orden ls -l
+6. Moverse al /mnt y ejecutar la orden ls -l
 
-4. Como resultado aparecera lo siguiente @rootfs
+7. Como resultado aparecera lo siguiente @rootfs
 
-5. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
+8. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-6. Regresar y renombrar @rootfs a @: mv @rootfs/ @
+9. Regresar y renombrar @rootfs a @: mv @rootfs/ @
 
-7. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
+10. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
 
-8. Ejecutar nano /etc/fstab
+11. Ejecutar nano /etc/fstab
 
-9. En ese archivo buscar a donde se esta montando el subvolumen @rootfs, y modificar por @
+12. En ese archivo buscar a donde se esta montando el subvolumen @rootfs, y modificar por @
 
-10. Salvar el Archivo fstab
+13. Salvar el Archivo fstab
 
-11. Modificar la linea con: sudo update-grub-
+14. Modificar la linea con: sudo update-grub-
 
-12. El archivo de grub.cfg, deberia estar corregido.
+15. El archivo de grub.cfg, deberia estar corregido.
 
-13. Reiniciar con shutdown -r now
+16. Reiniciar con shutdown -r now
 
-14. Instalar Terminal Tools y un entorno de Escritorio Básico.
+17. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
     sudo apt install timeshift i3 wget tlp btrfs-progs mc tmux lightdm htop newsboat vim git
 
