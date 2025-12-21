@@ -93,3 +93,11 @@ sudo apt install brave-browser
 ### Reconfigurar locales:
 
 sudo dpkg-reconfigure locales
+
+### Timeshift
+
+
+sudo timeshift --btrfs
+
+sudo timeshift --create --comments "Instantánea manual desde terminal"
+
