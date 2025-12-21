@@ -20,84 +20,57 @@
 	
 	4.6. home PARTITION->EXT4/XFS->Todo el espacio y Punto de montaje /home
 
-5. Selecciona Debian.org Repos.
+5. Finalizar la instalación.
 
-6. Seleccionar SSH Server, y Utilidades Estandar del Sistema.(Texto)
 
-7. Loguearse a tu nueva Terminal.
+## Configurando BTRFS para poder usar Timeshift
 
-8. Loguearse como root.
+1. Ejecutar el comando: df -Th para ver todas las particiones.
 
-9. Ejecutar el comando: df -Th para ver todas las particiones.
+2. Montar el volumen BTRFS usando el comando: mount /dev/nvem01p4 /mnt
 
-10. Montar el volumen BTRFS usando el comando: mount /dev/nvem01p4 /mnt
+3. Moverse al /mnt y ejecutar la orden ls -l
 
-11. Moverse al /mnt y ejecutar la orden ls -l
+4. Como resultado aparecera lo siguiente @rootfs
 
-12. Como resultado aparecera lo siguiente @rootfs
+5. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-13. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
+6. Regresar y renombrar @rootfs a @: mv @rootfs/ @
 
-14. Regresar y renombrar @rootfs a @: mv @rootfs/ @
+7. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
 
-15. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
+8. Ejecutar nano /etc/fstab
 
-16. Ejecutar nano /etc/fstab
+9. En ese archivo buscar a donde se esta montando el subvolumen @rootfs, y modificar por @
 
-17. En ese archivo buscar a donde se esta montando el subvolumen @rootfs, y modificar por @
+10. Salvar el Archivo fstab
 
-18. Salvar el Archivo fstab
+11. Modificar la linea con: sudo update-grub-
 
-19. Editar el archivo /boot/grub/grub.cfg
+12. El archivo de grub.cfg, deberia estar corregido.
 
-20. Una linea tendra el @rootfs
+13. Reiniciar con shutdown -r now
 
-21. Cerrar el Archivo.
+14. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-22. Modificar la linea con: update-grub (iniciar sesion con su -)
+    sudo apt install timeshift i3 wget tlp btrfs-progs mc tmux lightdm htop newsboat vim git
 
-23. El archivo de grub.cfg, deberia estar corregido.
+### Crear Snapshot "Clean Install" ejecutando:
 
-24. Reiniciar con shutdown -r now
+    sudo timeshift --btrfs
 
-25. Instalar timeshift, git, wget, tlp, btrfs-progs.
-
-26. Crear Snapshot Clean.
-
-25. Instalar Xfce4, Lightdm, Mugshot.
-
-30. Instalar todas las aplicaciones apt install 
-
-## Chrome:
-
-sudo apt update && sudo apt install wget
-
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-
-sudo apt install ./google-chrome-stable_current_amd64.deb
-
-## Brave
-
-sudo apt install curl
-
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-
-sudo curl -fsSLo /etc/apt/sources.list.d/brave-browser-release.sources https://brave-browser-apt-release.s3.brave.com/brave-browser.sources
-
-sudo apt update
-
-sudo apt install brave-browser
+    sudo timeshift --create --comments "Clean install with I3 only"
 
 ## Otros comandos útiles
 
 ### Reconfigurar locales:
 
-sudo dpkg-reconfigure locales
+	sudo dpkg-reconfigure locales
 
-### Timeshift
+### Añadir repos para instalar Chrome y Brave
+
+	sudo extrepo enable brave_release
+	sudo extrepo enable google-chrome
 
 
-sudo timeshift --btrfs
-
-sudo timeshift --create --comments "Instantánea manual desde terminal"
 
