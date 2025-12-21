@@ -27,7 +27,8 @@
 
 1. Ejecutar el comando:
   
-   df -Th 
+  	df -Th
+   
 4. Montar el volumen BTRFS usando el comando:
 
    sudo mount /dev/nvem01p4 /mnt
@@ -38,7 +39,7 @@
 
 8. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-9. Regresar y renombrar @rootfs a @: mv @rootfs/ @
+9. Regresar y renombrar **@rootfs** a **@**: mv @rootfs/ @
 
 10. Ejecutar: ls -l, donde antes decia @rootfs ahora dira @
 
