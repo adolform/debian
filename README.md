@@ -80,5 +80,17 @@
 
 	sudo apt install xfce4-goodies mugshot catfish vlc 7zip google-chrome-stable brave-browser putty emacs sqlite3 vim gtk3 default-jdk default-jre nodejs gdb audacious *icon-theme
 
+### Add, Delete Users
+Añade un usuario:
+sudo adduser leah
+
+Borra un usuario:
+sudo deluser leah
+
+Boora un usuario y el folder home:
+sudo deluser --remove-home leah 
+
+Añade el usuario a sudoers:
+sudo usermod -aG sudo leah
 
 
