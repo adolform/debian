@@ -82,15 +82,19 @@
 
 ### Add, Delete Users
 Añade un usuario:
-sudo adduser leah
+
+	sudo adduser leah
 
 Borra un usuario:
-sudo deluser leah
+
+	sudo deluser leah
 
 Boora un usuario y el folder home:
-sudo deluser --remove-home leah 
+
+	sudo deluser --remove-home leah 
 
 Añade el usuario a sudoers:
-sudo usermod -aG sudo leah
+
+	sudo usermod -aG sudo leah
 
 
