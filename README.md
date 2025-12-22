@@ -10,15 +10,15 @@
 
 	4.1. Select Manual Installation and Select your HardDrive.
 	
-	4.2. EFI PARTITION-> 300MB -> Utilizar como EFI -> No Mounting Point
+	4.2. EFI PARTITION----->300 MB--> EFI---->N/A
 	
-	4.3. Kernel Partition->2 GB-> EXT4 ->/BOOT
+	4.3. KERNEL PARTITION-->2 GB----> EXT4--->/BOOT
 	
-	4.4. Swap Partition-> 17GB(MEM RAM+1)->Utilizar como area de Intercambio.
+	4.4. SWAP PARTITION---->17GB(MEM RAM+1)-->N/A
 	
-	4.5. ROOT PARTITION->100 GB->BTRFS-> / ->Sistema de ficheros btrfs transaccional
+	4.5. ROOT PARTITION---->90 GB--->BTRFS->/
 	
-	4.6. home PARTITION->EXT4/XFS->Todo el espacio y Punto de montaje /home
+	4.6. HOME PARTITION---->ALL----->EXT4/XFS->/HOME
 
 5. Finalizar la instalación.
 
