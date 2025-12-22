@@ -27,7 +27,7 @@
 
 1. Ejecutar el comando:
   
-  	df -Th
+  		df -Th
    
 2. Montar el volumen BTRFS usando el comando:
 
@@ -45,7 +45,7 @@
 
 8. Ejecutar:
 
-    sudo nano /etc/fstab
+    	sudo nano /etc/fstab
 
 9. En ese archivo buscar a donde se esta montando el subvolumen **@rootfs, y modificar por @**
 
