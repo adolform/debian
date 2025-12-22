@@ -29,33 +29,35 @@
   
   	df -Th
    
-4. Montar el volumen BTRFS usando el comando:
+2. Montar el volumen BTRFS usando el comando:
 
-   sudo mount /dev/nvem01p4 /mnt
+   		sudo mount /dev/nvem01p4 /mnt
 
-6. Moverse al /mnt y ejecutar la orden ls -l
+3. Moverse al /mnt y ejecutar la orden ls -l
 
-7. Como resultado aparecera lo siguiente @rootfs
+4. Como resultado aparecera lo siguiente @rootfs
 
-8. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
+5. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-9. Regresar y renombrar ****@rootfs** a @: mv @rootfs/ @**
+6. Regresar y renombrar ****@rootfs** a @: mv @rootfs/ @**
 
-10. Ejecutar: ls -l, donde antes decia **@rootfs ahora dira @**
+7. Ejecutar: ls -l, donde antes decia **@rootfs ahora dira @**
 
-11. Ejecutar nano /etc/fstab
+8. Ejecutar:
 
-12. En ese archivo buscar a donde se esta montando el subvolumen **@rootfs, y modificar por @**
+    sudo nano /etc/fstab
 
-13. Salvar el Archivo fstab
+9. En ese archivo buscar a donde se esta montando el subvolumen **@rootfs, y modificar por @**
 
-14. Modificar la linea con: sudo update-grub-
+10. Salvar el Archivo fstab
 
-15. El archivo de grub.cfg, deberia estar corregido.
+11. Modificar la linea con: sudo update-grub-
 
-16. Reiniciar con shutdown -r now
+12. El archivo de grub.cfg, deberia estar corregido.
 
-17. Instalar Terminal Tools y un entorno de Escritorio Básico.
+13. Reiniciar con shutdown -r now
+
+14. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
     sudo apt install timeshift wget tlp btrfs-progs mc tmux lightdm htop vim git wget newsboat xfce4
 
