@@ -51,15 +51,15 @@
 
 10. Salvar el Archivo fstab
 
-11. Modificar la linea con: sudo update-grub-
+11. Actualizar Grub
 
-12. El archivo de grub.cfg, deberia estar corregido.
+    	sudo update-grub
 
-13. Reiniciar con shutdown -r now
+12. Reiniciar con shutdown -r now
 
-14. Instalar Terminal Tools y un entorno de Escritorio Básico.
+16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    sudo apt install timeshift wget tlp btrfs-progs mc tmux lightdm htop vim git wget newsboat xfce4
+    	sudo apt install timeshift wget tlp btrfs-progs mc tmux lightdm htop vim git wget newsboat xfce4
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
