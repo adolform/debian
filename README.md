@@ -39,7 +39,9 @@
 
 5. Moverse a cd @rootfs, esto entrara en el root folder, dentro del subvolumen.
 
-6. Regresar y renombrar ****@rootfs** a @: mv @rootfs/ @**
+6. Regresar y renombrar ****@rootfs** a @: 
+
+       sudo mv @rootfs/ @**
 
 7. Ejecutar: ls -l, donde antes decia **@rootfs ahora dira @**
 
