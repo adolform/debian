@@ -63,7 +63,7 @@
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    	sudo apt install timeshift wget tlp btrfs-progs mc tmux lightdm htop vim git wget xfce4
+    	sudo apt install timeshift tlp btrfs-progs lightdm xfce4 xfce4-goodies
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
@@ -83,7 +83,7 @@
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install xfce4-goodies mugshot catfish vlc 7zip google-chrome-stable putty emacs sqlite3 vim-gtk3 default-jdk default-jre nodejs gdb *icon-theme newsboat xarchiver mariadb firefox-esr
+	sudo apt install wget git mugshot catfish vlc 7zip google-chrome-stable putty emacs sqlite3 vim-gtk3 default-jdk default-jre nodejs gdb *icon-theme newsboat xarchiver mariadb firefox-esr mc tmux htop newsboat build-essentials
 
 ### Add, Delete Users
 Añade un usuario:
