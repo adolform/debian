@@ -1,6 +1,6 @@
 # Debian Setup
 
-1.Descargar Debian 13 net install.
+1.Descargar Debian 13 net install o standard.
 
 2.Inicie la instalación e ingrese la información.
 
@@ -53,7 +53,7 @@
 
 10. Salvar el Archivo fstab
 
-11. Actualizar Grub
+11. Actualizar Grub:
 
     	sudo update-grub
 
@@ -69,7 +69,7 @@
 
     sudo timeshift --btrfs
 
-    sudo timeshift --create --comments "Clean install with I3 only"
+    sudo timeshift --create --comments "Clean install with xfce4 only"
 
 ## Otros comandos útiles
 
@@ -77,30 +77,29 @@
 
 	sudo dpkg-reconfigure locales
 
-### Añadir repos para instalar Chrome y Brave
+### Añadir repos para instalar Chrome:
 
-	sudo extrepo enable brave_release
 	sudo extrepo enable google-chrome
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install xfce4-goodies mugshot catfish vlc 7zip google-chrome-stable brave-browser putty emacs sqlite3 vim gtk3 default-jdk default-jre nodejs gdb audacious *icon-theme newsboat
+	sudo apt install xfce4-goodies mugshot catfish vlc 7zip google-chrome-stable putty emacs sqlite3 vim-gtk3 default-jdk default-jre nodejs gdb *icon-theme newsboat xarchiver mariadb firefox-esr
 
 ### Add, Delete Users
 Añade un usuario:
 
-	sudo adduser leah
+	sudo adduser adolfo
 
 Borra un usuario:
 
-	sudo deluser leah
+	sudo deluser adolfo
 
 Boora un usuario y el folder home:
 
-	sudo deluser --remove-home leah 
+	sudo deluser --remove-home adolfo
 
 Añade el usuario a sudoers:
 
-	sudo usermod -aG sudo leah
+	sudo usermod -aG sudo adolfo
 
 
