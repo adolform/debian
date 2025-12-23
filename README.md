@@ -41,7 +41,7 @@
 
 6. Regresar y renombrar ****@rootfs** a @: 
 
-       sudo mv @rootfs/ @**
+       sudo mv @rootfs/ @
 
 7. Ejecutar: ls -l, donde antes decia **@rootfs ahora dira @**
 
@@ -57,7 +57,9 @@
 
     	sudo update-grub
 
-12. Reiniciar con shutdown -r now
+12. Reiniciar con :
+
+      sudo shutdown -r now
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
