@@ -22,7 +22,6 @@
 
 5. Finalizar la instalación.
 
-
 ## Configurando BTRFS para poder usar Timeshift
 
 1. Ejecutar el comando:
@@ -63,7 +62,7 @@
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    	sudo apt install timeshift tlp btrfs-progs lightdm xfce4 xfce4-goodies
+    	sudo apt install timeshift tlp btrfs-progs lightdm xfce4 gparted gsmartcontrol bleachbit
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
@@ -77,13 +76,34 @@
 
 	sudo dpkg-reconfigure locales
 
-### Añadir repos para instalar Chrome:
+### Añadir repos para instalar Chrome y Brave:
 
-	sudo extrepo enable google-chrome
+	sudo extrepo enable google_chrome
+
+	sudo extrepo enable brave_release
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install wget git mugshot catfish vlc 7zip google-chrome-stable putty emacs sqlite3 vim-gtk3 default-jdk default-jre nodejs gdb *icon-theme newsboat xarchiver mariadb firefox-esr mc tmux htop newsboat build-essentials
+	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent brave-browser google-chrome-stable vlc putty evince catfish innoextract dosbox default-jdk 	default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget
+
+### Add this line to lightdm.conf to remember the last user:
+
+	[Seat:*]
+	greeter-hide-users=false
+
+### Add this line to lightdm-gtk-greeter.conf
+
+	indicators = ~host;~spacer;~clock;~spacer;~session;~layout;~a11y;~power
+
+### Instalar Flatpack
+
+	Instalar:
+
+	sudo apt update && sudo apt install flatpak
+
+	Añade Repositorios:
+
+	flatpak remote add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ### Add, Delete Users
 Añade un usuario:
@@ -101,5 +121,13 @@ Boora un usuario y el folder home:
 Añade el usuario a sudoers:
 
 	sudo usermod -aG sudo adolfo
+
+
+
+
+
+	
+
+
 
 
