@@ -62,13 +62,13 @@
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    	sudo apt install timeshift tlp btrfs-progs lightdm xfce4 gparted gsmartcontrol bleachbit
+    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
     sudo timeshift --btrfs
 
-    sudo timeshift --create --comments "Clean install with xfce4 only"
+    sudo timeshift --create --comments "Clean install"
 
 ## Otros comandos útiles
 
@@ -84,7 +84,7 @@
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent brave-browser google-chrome-stable vlc putty evince catfish innoextract dosbox default-jdk 	default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget galculator numix-icon-theme papirus-icon-theme lightdm-gtk-greeter-config mugshot xfce4-goodies
+	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent brave-browser google-chrome-stable vlc putty evince catfish innoextract dosbox default-jdk 	default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak
 
 ### Add this line to lightdm.conf to remember the last user:
 
