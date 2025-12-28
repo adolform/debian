@@ -121,8 +121,15 @@ Boora un usuario y el folder home:
 Añade el usuario a sudoers:
 
 	sudo usermod -aG sudo adolfo
+### Eliminar rastros de libreoffice y firefox
 
+Para Firefox
+	rm -rf ~/.mozilla
+	
+	rm -rf ~/.cache/mozilla
 
+Para LibreOffice
+	rm -rf ~/.config/libreoffice
 
 
 
