@@ -139,7 +139,7 @@ Para LibreOffice
 
 1. Habilitar Multi-arquitectura (32 bits):
    
-    sudo dpkg --add-architecture i386 y luego sudo apt update.
+    sudo dpkg --add-architecture i386
 
 2. Agregar el Repositorio de WineHQ:
 
