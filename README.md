@@ -137,25 +137,7 @@ Para LibreOffice
 
 ### Instalar Wine
 
-1. Habilitar Multi-arquitectura (32 bits):
-   
-    sudo dpkg --add-architecture i386
-
-2. Agregar el Repositorio de WineHQ:
-
-	sudo mkdir -p /etc/apt/keyrings y wget -O /etc/apt/keyrings/winehq-archive.key dl.winehq.org.
-
-
-	sudo wget -NP /etc/apt/sources.list.d/ dl.winehq.org
-	
-	sudo apt update
-
- 	sudo apt install --install-recommends winehq-stable.
-
-
-Ejecuta winecfg para la primera inicialización. Esto creará el directorio ~/.wine y te pedirá instalar componentes adicionales como mono y gecko.
-Verificar la Instalación:
-Ejecuta wine --version para confirmar la versión instalada. 
+https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu
 
 	
 
