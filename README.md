@@ -93,6 +93,8 @@
 
 ### Add this line to lightdm-gtk-greeter.conf
 
+	hide-user-image = true
+
 	indicators = ~host;~spacer;~clock;~spacer;~session;~layout;~a11y;~power
 
 ### Instalar Flatpack
@@ -124,6 +126,7 @@ Añade el usuario a sudoers:
 ### Eliminar rastros de libreoffice y firefox
 
 Para Firefox
+
 	rm -rf ~/.mozilla
 	
 	rm -rf ~/.cache/mozilla
@@ -132,7 +135,27 @@ Para LibreOffice
 
 	rm -rf ~/.config/libreoffice
 
+### Instalar Wine
 
+1. Habilitar Multi-arquitectura (32 bits):
+   
+    sudo dpkg --add-architecture i386 y luego sudo apt update.
+
+2. Agregar el Repositorio de WineHQ:
+
+	sudo mkdir -p /etc/apt/keyrings y wget -O /etc/apt/keyrings/winehq-archive.key dl.winehq.org.
+
+
+	sudo wget -NP /etc/apt/sources.list.d/ dl.winehq.org
+	
+	sudo apt update
+
+ 	sudo apt install --install-recommends winehq-stable.
+
+
+Ejecuta winecfg para la primera inicialización. Esto creará el directorio ~/.wine y te pedirá instalar componentes adicionales como mono y gecko.
+Verificar la Instalación:
+Ejecuta wine --version para confirmar la versión instalada. 
 
 	
 
