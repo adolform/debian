@@ -129,6 +129,7 @@ Para Firefox
 	rm -rf ~/.cache/mozilla
 
 Para LibreOffice
+
 	rm -rf ~/.config/libreoffice
 
 
