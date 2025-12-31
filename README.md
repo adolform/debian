@@ -104,6 +104,7 @@
 
 	  sudo apt update && sudo apt install flatpak
 
+
 	Añade Repositorios:
 
 
