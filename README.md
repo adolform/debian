@@ -101,11 +101,14 @@
 
 	Instalar:
 
-	sudo apt update && sudo apt install flatpak
+
+	  sudo apt update && sudo apt install flatpak
 
 	Añade Repositorios:
 
-	flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+  	flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
 
 ### Add, Delete Users
 Añade un usuario:
