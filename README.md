@@ -84,7 +84,7 @@
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc putty innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak
+	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc putty innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak mugshot
 
 ### Add this line to lightdm.conf to remember the last user:
 
@@ -123,17 +123,23 @@ Boora un usuario y el folder home:
 Añade el usuario a sudoers:
 
 	sudo usermod -aG sudo adolfo
+
 ### Eliminar rastros de libreoffice y firefox
 
-Para Firefox
+Para Firefox:
+
 
 	rm -rf ~/.mozilla
 	
 	rm -rf ~/.cache/mozilla
 
-Para LibreOffice
+
+Para LibreOffice:
+
 
 	rm -rf ~/.config/libreoffice
+
+
 
 ### Instalar Wine
 
