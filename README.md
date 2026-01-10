@@ -84,7 +84,8 @@
 
 ### Instalacion final con Xfce4 y Herramientas Gráficas
 
-	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc putty innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak mugshot catfish lightdm-gtk-greeter-settings acpi
+	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc putty innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak mugshot catfish lightdm-gtk-greeter-settings acpi arandr bluez blueman pulseaudio-module-bluetooth bluez-tools
+
 
 ### Add this line to lightdm.conf to remember the last user:
 
