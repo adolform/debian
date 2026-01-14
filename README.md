@@ -145,6 +145,25 @@ Para LibreOffice:
 	rm -rf ~/.config/libreoffice
 
 
+### Habilitar Actualizaciones Automáticas
+
+Actualiza e instala los paquetes necesarios:
+
+	sudo apt update && sudo apt install unattended-upgrades
+
+Llamar el asistente de Configuración:
+
+	sudo dpkg-reconfigure --priority=low unattended-upgrades
+
+Revisa la configuarción
+
+	sudo nano /etc/apt/apt.conf.d/20auto-upgrades
+
+Debe Contener lo siguiente:
+
+	APT::Periodic::Update-Package-Lists "1";
+	APT::Periodic::Unattended-Upgrade "1";
+
 
 ### Instalar Wine
 
