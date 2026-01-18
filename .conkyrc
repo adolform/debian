@@ -85,7 +85,7 @@ ${template1 AP}                                                             ${te
 ${template1 Signal}             ${template2}${wireless_link_qual_perc wlo1} ${template3}${wireless_link_bar wlo1}
 ${template1 Download}           ${template2}${downspeed wlo1}              ${template3}${downspeedgraph wlo1}
 ${template1 Upload}             ${template2}${upspeed wlo1}                ${template3}${upspeedgraph wlo1}
-${template1 Total Down/Up}                                                  ${template3}${totaldown wlo1}↓ / {totalup wlan0}↑
+${template1 Total Down/Up}                                                  ${template3}${totaldown wlo1}↓ / {totalup wlo1}↑
 ${else}${if_existing /proc/net/route eth0}\
 ${template1 Ip}                                                             ${template3}${addr eth0}
 ${template1 Download}           ${template2}${downspeed eth0}               ${template3}${downspeedgraph eth0}
