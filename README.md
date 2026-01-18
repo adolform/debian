@@ -167,7 +167,11 @@ Debe Contener lo siguiente:
 
 ### Instalar Wine
 
-https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu
+	https://gitlab.winehq.org/wine/wine/-/wikis/Debian-Ubuntu
+
+### Configuracion de XFCE4 
+
+	/home/adolfo/.local/share/xfce4/terminal/colorschemes/
 
 	
 
