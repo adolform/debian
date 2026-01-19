@@ -62,7 +62,7 @@
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr xfce4
+    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr xfce4 lightdm
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
