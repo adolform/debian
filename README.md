@@ -76,7 +76,7 @@
 
 	sudo dpkg-reconfigure locales
 
-### Añadir repos para instalar Chrome y Brave:
+### Añadir repos para instalar Chrome:
 
 	sudo extrepo enable google_chrome
 
