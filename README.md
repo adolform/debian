@@ -62,7 +62,7 @@
 
 16. Instalar Terminal Tools y un entorno de Escritorio Básico.
 
-    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr network-manager network-manager-gnome
+    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr network-manager network-manager-gnome zutty
 
 ### Crear Snapshot "Clean Install" ejecutando:
 
