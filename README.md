@@ -82,7 +82,7 @@
 
 ### Instalacion final con Xfce4-goodies y todas las herramientas
 
-	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full breeze-cursor-theme greybird-gtk-theme numix-icon-theme elementary-xfce-icon-theme breeze-cursor-theme bibata-cursor-theme papirus-icon-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic crawl-tiles galculator aisleriot gnome-mines hexchat
+	sudo apt install mc newsboat fastfetch tmux htop cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git wget flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full breeze-cursor-theme greybird-gtk-theme numix-icon-theme elementary-xfce-icon-theme breeze-cursor-theme bibata-cursor-theme papirus-icon-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic crawl-tiles galculator aisleriot gnome-mines hexchat xfce4-goodies
 
 
 ### Add this line to lightdm.conf to remember the last user:
