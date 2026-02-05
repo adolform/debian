@@ -60,11 +60,11 @@
 
       sudo shutdown -r now
 
-16. Instalar Utilidades de Admin Restore Point for Clean install.
+## Instalar Utilidades de Admin Restore Point for Clean install.
 
     	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr 
 
-### Crear Snapshot "Clean Install" ejecutando:
+## Crear Snapshot "Clean Install" ejecutando:
 
     sudo timeshift --btrfs
 
@@ -100,9 +100,7 @@
 
 Instalar:
 
-
 	  sudo apt update && sudo apt install flatpak
-
 
 Añade Repositorios:
 
