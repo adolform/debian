@@ -62,7 +62,7 @@
 
 ## Instalar Utilidades de Admin
 
-    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr xfce4 lightdm htop wget curl
+    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit acpi arandr xfce4 lightdm htop wget curl network-manager-gnome network-manager
 
 ## Crear Snapshot "Clean Install" ejecutando:
 
@@ -73,7 +73,7 @@
 
 ## Instalacion final con Xfce4-goodies y todas las herramientas
 
-	sudo apt install mc newsboat fastfetch tmux cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme bibata-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic crawl-tiles galculator aisleriot gnome-mines xfce4-goodies network-manager-gnome network-manager
+	sudo apt install mc newsboat fastfetch tmux cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme bibata-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic  galculator gnome-mines xfce4-goodies  crawl-tiles aisleriot
 
 
 ## Otros comandos útiles
