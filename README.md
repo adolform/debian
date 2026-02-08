@@ -62,7 +62,7 @@
 
 ## Instalar Utilidades de Admin
 
-    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 lightdm htop wget curl network-manager-gnome network-manager arandr acpi
+    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch
 
 ## Crear Snapshot "Clean Install" ejecutando:
 
