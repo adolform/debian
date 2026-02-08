@@ -73,7 +73,7 @@
 
 ## Instalacion final con Xfce4-goodies y todas las herramientas
 
-	sudo apt install acpi arandr mc newsboat fastfetch tmux cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic  galculator gnome-mines xfce4-goodies  crawl-tiles aisleriot 
+	sudo apt install acpi arandr mc tmux cowsay qbittorrent vlc innoextract dosbox default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic  galculator gnome-mines xfce4-goodies crawl-tiles aisleriot 
 
 
 ## Otros comandos útiles
