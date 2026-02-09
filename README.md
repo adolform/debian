@@ -67,7 +67,7 @@
 
 ## Instalacion final con Xfce4-goodies y todas las herramientas
 
-	sudo apt install mc tmux qbittorrent vlc innoextract default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic galculator xfce4-goodies greybird-gtk-theme crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines
+	sudo apt install mc tmux qbittorrent vlc innoextract default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic galculator xfce4-goodies greybird-gtk-theme crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
@@ -82,11 +82,9 @@
 
 	sudo dpkg-reconfigure locales
 
-### Añadir repos para instalar Chrome and Brave:
+### Añadir repos para instalar Chrome:
 
 	sudo extrepo enable google_chrome
-
-	sudo extrepo enable brave_release
 
 ### Add this line to lightdm.conf to remember the last user:
 
