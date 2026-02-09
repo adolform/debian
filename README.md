@@ -61,13 +61,9 @@
       sudo shutdown -r now
 
 
-## Instalar Xfce4 Basico
+## Instalar Xfce4 (All)
 
-    	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux emacs vim vim-gtk3 git galculator
-
-## Instalacion final con Xfce4-goodies y todas las herramientas
-
-	sudo apt install xfce4-goodies elementary-xfce-icon-theme breeze-cursor-theme greybird-gtk-theme default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full menulibre conky-all crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince qbittorrent vlc innoextract flatpak 
+    	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 xfce4-goodies lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux emacs vim vim-gtk3 git galculator elementary-xfce-icon-theme breeze-cursor-theme greybird-gtk-theme default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full menulibre conky-all crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince qbittorrent vlc innoextract flatpak libreoffice libreoffice-l10n-es thunderbird firefox-esr
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
