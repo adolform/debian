@@ -63,11 +63,11 @@
 
 ## Instalar Xfce4 Basico
 
-    	sudo apt install timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch
+    	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux emacs vim vim-gtk3 git
 
 ## Instalacion final con Xfce4-goodies y todas las herramientas
 
-	sudo apt install mc tmux qbittorrent vlc innoextract default-jdk default-jre python3-pip nodejs gdb build-essential emacs vim vim-gtk3 git flatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany synaptic galculator xfce4-goodies greybird-gtk-theme crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince
+	sudo apt install default-jdk default-jre python3-pip nodejs gdb build-essentialmflatpak mugshot catfish lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools elementary-xfce-icon-theme breeze-cursor-theme menulibre conky-all sqlite3 sqlitebrowser geany galculator xfce4-goodies p7zip-full greybird-gtk-theme crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince qbittorrent vlc innoextract 
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
