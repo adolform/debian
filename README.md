@@ -60,10 +60,12 @@
 
       sudo shutdown -r now
 
-
+## Instalar XFCE4
+	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 xfce4-goodies lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux
+	
 ## Instalar Xfce4 (All)
 
-    	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 xfce4-goodies lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux emacs vim vim-gtk3 git galculator elementary-xfce-icon-theme breeze-cursor-theme default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser mugshot catfish bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full menulibre crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince qbittorrent vlc innoextract flatpak
+	sudo apt install emacs vim vim-gtk3 git galculator elementary-xfce-icon-theme breeze-cursor-theme default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser mugshot catfish bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full menulibre crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines evince qbittorrent vlc innoextract flatpak lightdm-gtk-greeter-settings greybird-gtk-theme
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
