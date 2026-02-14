@@ -60,8 +60,9 @@
 
       sudo shutdown -r now
 
-## Instalar XFCE4
-	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 xfce4-goodies lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux
+## Instalar XFCE4 Clean Install
+
+	sudo apt install synaptic timeshift tlp btrfs-progs gparted gsmartcontrol bleachbit xfce4 xfce4-goodies lightdm htop wget curl network-manager-gnome network-manager arandr acpi screenfetch mc tmux zutty
 	
 ## Instalar Xfce4 (All)
 
@@ -72,7 +73,6 @@
     sudo timeshift --btrfs
 
     sudo timeshift --create --comments "Clean install"
-
 
 ## Otros comandos útiles
 
