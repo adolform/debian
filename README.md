@@ -60,23 +60,13 @@
 
       sudo shutdown -r now
 
-## Instalar XFCE4 Clean Install
+## Instalar XFCE4 Basic Install
 
-	sudo apt install timeshift tlp btrfs-progs galculator elementary-xfce-icon-theme breeze-cursor-theme mugshot catfish p7zip-full menulibre vlc bleachbit gparted gsmartcontrol bleachbit qbittorrent vlc innoextract lightdm-gtk-greeter-settings arandr acpi screenfetch bluez blueman pulseaudio-module-bluetooth bluez-tools
+	sudo apt install lightdm zutty xfce4 btrfs-progs timeshift tlp acpi arandr screenfetch zutty bleachbit gparted gsmartcontrol bleachbit galculator
 
-## Internet tools
+## All Utilities
 
-## Games
-
-	sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
-
-## Instalar Xfce4 Dev Tools
-
-	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
-
-## Instalar Terminal Tools
-
-	sudo apt install mc tmux wget curl irssi newsboat ftp
+	sudo apt install mc tmux wget curl irssi newsboat ftp xfce4-goodies elementary-xfce-icon-theme breeze-cursor-theme mugshot catfish p7zip-full menulibre vlc qbittorrent vlc innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser 
 
 	
 ## Crear Snapshot "Clean Install" ejecutando:
