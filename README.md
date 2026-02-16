@@ -62,11 +62,22 @@
 
 ## Instalar XFCE4 Clean Install
 
-	sudo apt install timeshift tlp btrfs-progs
-	
-## Instalar Xfce4 (All)
+	sudo apt install timeshift tlp btrfs-progs galculator elementary-xfce-icon-theme breeze-cursor-theme mugshot catfish p7zip-full menulibre vlc bleachbit gparted gsmartcontrol bleachbit qbittorrent vlc innoextract lightdm-gtk-greeter-settings arandr acpi screenfetch bluez blueman pulseaudio-module-bluetooth bluez-tools
 
-	sudo apt install emacs vim vim-gtk3 git galculator elementary-xfce-icon-theme breeze-cursor-theme default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser mugshot catfish bluez blueman pulseaudio-module-bluetooth bluez-tools p7zip-full menulibre crawl-tiles aisleriot skladnik xye wesnoth dosbox cowsay gnome-mines qbittorrent vlc innoextract flatpak lightdm-gtk-greeter-settings synaptic gparted gsmartcontrol bleachbit xfce4-goodies arandr acpi screenfetch mc tmux wget curl
+## Internet tools
+
+## Games
+
+	sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
+
+## Instalar Xfce4 Dev Tools
+
+	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
+
+## Instalar Terminal Tools
+
+	sudo apt install mc tmux wget curl irssi newsboat ftp
+
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
