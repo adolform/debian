@@ -62,11 +62,7 @@
 
 ## Instalar XFCE4 Basic Install
 
-	sudo apt install lightdm zutty xfce4 btrfs-progs timeshift tlp acpi arandr screenfetch zutty bleachbit gparted gsmartcontrol bleachbit galculator
-
-## All Utilities
-
-	sudo apt install mc tmux wget curl irssi newsboat ftp xfce4-goodies elementary-xfce-icon-theme breeze-cursor-theme mugshot catfish p7zip-full menulibre vlc qbittorrent vlc innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser 
+	sudo apt install timeshift tlp acpi arandr screenfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux wget curl irssi newsboat ftp xfce4-goodies elementary-xfce-icon-theme breeze-cursor-theme mugshot catfish p7zip-full menulibre vlc qbittorrent vlc innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser 
 
 	
 ## Crear Snapshot "Clean Install" ejecutando:
@@ -84,7 +80,6 @@
 ### Añadir repos para instalar Chrome:
 
 	sudo extrepo enable google_chrome
-	sudo extrepo enable brave_release
 
 ### Add this line to lightdm.conf to remember the last user:
 
