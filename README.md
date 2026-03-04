@@ -62,7 +62,7 @@
 
 ## Install XFCE4
 
-	sudo apt install xfce4 lightdm btrfs-progs zutty  timeshift tlp acpi arandr fastfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux htop wget curl elementary-xfce-icon-theme breeze-cursor-theme
+	sudo apt install xfce4 lightdm btrfs-progs zutty  timeshift tlp acpi arandr fastfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux htop wget curl elementary-xfce-icon-theme breeze-cursor-theme network-manager network-manager-gnome
 
 ## Instalar XFCE4 Basic Install
 
