@@ -62,11 +62,7 @@
 
 ## Install XFCE4
 
-	sudo apt install xfce4 lightdm btrfs-progs zutty  timeshift tlp acpi arandr fastfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux htop wget curl elementary-xfce-icon-theme breeze-cursor-theme network-manager network-manager-gnome
-
-## Instalar XFCE4 Basic Install
-
-	sudo apt install xfce4-goodies irssi newsboat ftp mugshot catfish p7zip-full menulibre vlc qbittorrent vlc atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
+	sudo apt install timeshift tlp acpi arandr fastfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux htop wget curl elementary-xfce-icon-theme breeze-cursor-theme irssi newsboat ftp mugshot catfish p7zip-full menulibre vlc qbittorrent vlc atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
