@@ -2,25 +2,39 @@
 
 1.Descargar Debian 13 net install o standard.
 
-2.Inicie la instalación e ingrese la información.
 
-3.Ingrese su usuario y password
+# Elimine las particiones
+1. Ver información de las particiones.
+	
+	lsblk
+	
+2. Ejecutar:
 
-4. Cree las particiones:
+	sudo fdisk
+	
+3. En fdisk ejecutar g y darle si esto creara una nueva tabla de particiones.
 
-	4.1. Select Manual Installation and Select your HardDrive.
-	
-	4.2. EFI PARTITION----->300 MB--> EFI---->N/A
-	
-	4.3. KERNEL PARTITION-->2 GB----> EXT4--->/BOOT
-	
-	4.4. SWAP PARTITION---->17GB(MEM RAM+1)-->N/A
-	
-	4.5. ROOT PARTITION---->90 GB--->BTRFS->/
-	
-	4.6. HOME PARTITION---->ALL----->EXT4/XFS->/HOME
+# Instalando Debian 13
 
-5. Finalizar la instalación.
+1.Inicie la instalación e ingrese la información.
+
+2.Ingrese su usuario y password
+
+3. Cree las particiones:
+
+	3.1. Select Manual Installation and Select your HardDrive.
+	
+	3.2. EFI PARTITION----->300 MB--> EFI---->N/A
+	
+	3.3. KERNEL PARTITION-->2 GB----> EXT4--->/BOOT
+	
+	3.4. SWAP PARTITION---->17GB(MEM RAM+1)-->N/A
+	
+	3.5. ROOT PARTITION---->90 GB--->BTRFS->/
+	
+	3.6. HOME PARTITION---->ALL----->EXT4/XFS->/HOME
+
+4. Finalizar la instalación.
 
 ## Configurando BTRFS para poder usar Timeshift
 
@@ -60,9 +74,21 @@
 
       sudo shutdown -r now
 
-## Install XFCE4
+## Clean Basic Install
 
-	sudo apt install timeshift tlp acpi arandr fastfetch bleachbit gparted gsmartcontrol bleachbit galculator mc tmux htop wget curl elementary-xfce-icon-theme breeze-cursor-theme irssi newsboat ftp mugshot catfish p7zip-full menulibre vlc qbittorrent vlc atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser extrepo
+	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol bleachbit galculator zutty firefox-esr wget curl network-manager network-manager-gnome extrepo htop unattended-upgrades fastfetch
+
+## Basic Install
+
+	sudo apt install xfce4-goodies  mc tmux  elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre vlc atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools unrar-free flatpak
+
+## Games
+
+	sudo apt install crawl-tiles aisleriot skladnik xye wesnoth dosbox gnome-mines
+
+## Development
+
+	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
