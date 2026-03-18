@@ -76,11 +76,11 @@
 
 ## Clean Basic Install
 
-	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol bleachbit galculator zutty firefox-esr wget curl network-manager network-manager-gnome extrepo htop unattended-upgrades fastfetch
+	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol galculator zutty firefox-esr wget curl network-manager network-manager-gnome extrepo htop unattended-upgrades fastfetch
 
 ## Basic Install
 
-	sudo apt install xfce4-goodies  mc tmux  elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre vlc atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools unrar-free flatpak
+	sudo apt install xfce4-goodies mc tmux elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools unrar-free thunderbird deluge flatpak audacious vlc synaptic
 
 ## Games
 
@@ -88,7 +88,7 @@
 
 ## Development
 
-	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser
+	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
