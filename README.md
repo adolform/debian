@@ -76,7 +76,7 @@
 
 ## Home Desktop Install
 	
-	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol galculator firefox-esr wget curl network-manager network-manager-gnome extrepo htop unattended-upgrades fastfetch xfce4-goodies mc tmux elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre atril innoextract lightdm-gtk-greeter-settings bluez blueman pulseaudio-module-bluetooth bluez-tools unrar-free thunderbird deluge vlc synaptic
+	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol galculator firefox-esr wget curl git network-manager network-manager-gnome htop unattended-upgrades fastfetch xfce4-goodies mc tmux elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre atril innoextract lightdm-gtk-greeter-settings unrar-free thunderbird deluge vlc synaptic flatpak bluez blueman pulseaudio-module-bluetooth bluez-tools
 
 ## Games
 
@@ -84,7 +84,7 @@
 
 ## Development
 
-	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty git
+	sudo apt install emacs vim vim-gtk3 git default-jdk default-jre geany python3-pip nodejs gdb build-essential sqlite3 sqlitebrowser filezilla putty putty-tools 
 	
 ## Crear Snapshot "Clean Install" ejecutando:
 
