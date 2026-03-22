@@ -2,7 +2,6 @@
 
 1.Descargar Debian 13 net install o standard.
 
-
 # Elimine las particiones
 1. Ver información de las particiones.
 	
@@ -76,7 +75,7 @@
 
 ## Home Desktop Install
 	
-	sudo apt install lightdm xfce4 timeshift tlp acpi arandr bleachbit gparted gsmartcontrol galculator firefox-esr wget curl git network-manager network-manager-gnome htop unattended-upgrades fastfetch xfce4-goodies mc tmux elementary-xfce-icon-theme ftp mugshot catfish p7zip-full menulibre atril innoextract lightdm-gtk-greeter-settings unrar-free thunderbird deluge vlc synaptic flatpak bluez blueman pulseaudio-module-bluetooth bluez-tools
+	sudo apt install lightdm xfce4 xfce4-goodies elementary-xfce-icon-theme timeshift tlp acpi arandr bleachbit gparted gsmartcontrol galculator firefox-esr wget curl git network-manager network-manager-gnome htop unattended-upgrades fastfetch mc tmux ftp mugshot catfish p7zip-full menulibre atril innoextract lightdm-gtk-greeter-settings unrar-free thunderbird deluge vlc synaptic flatpak bluez blueman pulseaudio-module-bluetooth bluez-tools
 
 ## Games
 
